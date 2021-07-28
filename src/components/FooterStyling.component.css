@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: #110022;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .footer-contents{
+      list-style: none;
+      display: inline-flex;
+  }
+
+  .footer-contents li{
+      list-style: none;
+  }
+
+  .footer-again{
+      width:20%;
+  }
+
+  .footer-subHeader span{
+      font-size: 1.5vw;
+  }
+
+  .footer-subContent span{
+      font-size: 1vw;
+  }
+
+  .footer-contents span{
+      color: rgb(122, 122, 122);
+  }
+
+  .footer-contents i{
+      color: rgb(122, 122, 122);
+      size: 1vw;
+  }
+
+  .footer-column{
+      float: left;
+  }

@@ -1,0 +1,59 @@
+.navbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: white;
+    /*
+    opacity: 0.75;
+    */
+    height: 10vw;
+    width: 100%;
+    z-index: 9001;
+    position: fixed;
+}
+
+.navbar-logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10vw;
+    width: 20vw;
+}
+
+.navbar img{
+    width: 20vw;
+    height: auto;
+    /*
+    284px
+    92px
+    */
+
+    filter: invert(1);
+}
+
+span{
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Patua One', cursive;
+}
+
+.not-logo-nav-items{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 1vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 2vw;
+    font-size: 1.5vw;
+}
+
+.not-logo-nav-items span:hover{
+    display: inline-block;
+    border-bottom: 0.25vw solid transparent;
+}

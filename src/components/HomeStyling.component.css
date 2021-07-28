@@ -1,0 +1,78 @@
+.home-page{
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    /*
+    4rem
+    */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    /*
+    2rem
+    */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.seller-one{
+    position: absolute;
+    top: 25vw;
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.sub-seller-one{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border: solid white 0.1vw;
+}
+
+.imageTest{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    z-index: 1;
+}
+
+.spacer{
+    position: relative;
+    height: 10vw;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.contentOne{
+    margin: 0;
+    height: 15vw;
+    opacity: 0.5;
+}
