@@ -5,6 +5,7 @@
     overflow: auto;
     display: flex;
     flex-direction: column;
+    background: black;
 }
 
 .home-page ul{
@@ -56,6 +57,133 @@
     border: solid white 0.1vw;
 }
 
+.seller-two{
+    position: absolute;
+    top: 118vw;
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.sub-seller-two{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.seller-three{
+    position: absolute;
+    top: 128vw;
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.seller-three h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+    /*
+    2rem
+    */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-seller-three{
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    text-align: center;
+    z-index: 2;
+    border: solid white 0.1vw;
+    width: 32.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.sub-seller-three:hover{
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    text-align: center;
+    z-index: 2;
+    border: solid green 0.1vw;
+    width: 32.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.seller-four{
+    position: absolute;
+    top: 65vw;
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.sub-seller-four{
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    border: solid white 0.1vw;
+    width: 18%;
+    margin-left: 41%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 2vw;
+}
+
+.sub-seller-four:hover{
+    /*
+    top: 22.5rem;
+    21.5%
+    360px
+    */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    border: solid green 0.1vw;
+    width: 18%;
+    margin-left: 41%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 2vw;
+}
+
+.sub-seller-four a{
+    margin: 0;
+    padding: 0;
+}
+
 .imageTest{
     position: relative;
     max-width: 100%;
@@ -66,7 +194,7 @@
 
 .spacer{
     position: relative;
-    height: 10vw;
+    height: 7vw;
     max-width: 100%;
     z-index: 1;
 }
@@ -74,5 +202,20 @@
 .contentOne{
     margin: 0;
     height: 15vw;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.contentOne h2{
+    padding-top: 1vw;
+    color: black;
+}
+
+
+
+video{
     opacity: 0.5;
+    height: 50%;
+    border-top: solid white 0.1vw;
 }

@@ -21,7 +21,7 @@
 }
 
 .navbar img{
-    width: 20vw;
+    width: 25vw;
     height: auto;
     /*
     284px
@@ -43,7 +43,8 @@ span{
     align-items: center;
     text-decoration: none;
     color: black;
-    margin-right: 1vw;
+    margin-right: 0vw;
+    margin-left: 4vw;
 }
 
 a{
@@ -55,5 +56,5 @@ a{
 
 .not-logo-nav-items span:hover{
     display: inline-block;
-    border-bottom: 0.25vw solid transparent;
+    border-bottom: 0.5vw solid transparent;
 }
