@@ -22,11 +22,33 @@ function HomePage() {
                     </div>
                 </div>
 
-                
-                
-                <video autoPlay loop muted>
-                    <source src={SwansonMiniClip} type ="video/mp4"/>
-                </video>
+                <div className = "ding-dong-help-div">
+                    <a href="/realty" className="realty-button">
+                        <h2>Real Estate</h2>
+                    </a>
+                </div>
+
+                <div className = "other-buttons-help">
+                    <ul className="other-buttons">
+                        <a href ="/construction">
+                            <li>
+                                <h2>Construction</h2>
+                            </li>
+                        </a>
+
+                        <a href ="/specialevents">
+                            <li>
+                                <h2>Special Events</h2>
+                            </li>
+                        </a>
+
+                        <a href ="/fun">
+                            <li>
+                                <h2>For Fun</h2>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
 
                 <video autoPlay loop muted>
                     <source src={SwansonMiniThinClip} type ="video/mp4"/>
@@ -41,43 +63,13 @@ function HomePage() {
                 </div>
                 
                 <div className="seller-three">
-                    <a href="https://www.w3schools.com">
+                    <a href="/contact">
                     <div className = "sub-seller-three">
                         <h2>Contact for Commission</h2>
                     </div>
                     </a>
                 </div>
 
-                </div>
-
-                <div className="seller-four">
-                    <h1>Explore More of Our Content</h1>
-                    <ul>
-                        <a href ="https://www.w3schools.com">
-                        <li className = "sub-seller-four">
-                            <h2>Real Estate</h2>
-                        </li>
-                        </a>
-
-                        <a href ="https://www.w3schools.com">
-                        <li className = "sub-seller-four">
-                            <h2>Construction</h2>
-                        </li>
-                        </a>
-
-                        <a href ="https://www.w3schools.com">
-                        <li className = "sub-seller-four">
-                            <h2>Special Events</h2>
-                        </li>
-                        </a>
-
-                        <a href ="https://www.w3schools.com">
-                        <li className = "sub-seller-four">
-                            <h2>Just For Fun</h2>
-                        </li>
-                        </a>
-                            
-                    </ul>
                 </div>
                 
             </div>

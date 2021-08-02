@@ -15,8 +15,8 @@
 }
 
 .home-page h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 4vw;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 4.4vw;
     /*
     4rem
     */
@@ -26,7 +26,7 @@
 }
 
 .home-page h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 2vw;
     /*
     2rem
@@ -38,7 +38,7 @@
 
 .seller-one{
     position: absolute;
-    top: 25vw;
+    top: 12.5vw;
     /*
     top: 22.5rem;
     21.5%
@@ -54,12 +54,100 @@
     margin-left: 15%;
     padding-top: 3vw;
     padding-bottom: 3vw;
+    /*
     border: solid white 0.1vw;
+    */
+}
+
+.ding-dong-help-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.realty-button{
+    display: flex;
+    position: absolute;
+    background-color: #2c0041;
+    top: 35vw;
+    text-align: center;
+    z-index: 2;
+    width: 20vw;
+    justify-content: center;
+    border-radius: 5vw;
+    border: solid white 0.1vw;
+    padding-bottom: 0.5vw;
+}
+
+.realty-button h2{
+    font-size: 3vw;
+}
+
+.realty-button:hover{
+    display: flex;
+    position: absolute;
+    top: 35vw;
+    text-align: center;
+    z-index: 2;
+    width: 20vw;
+    justify-content: center;
+    border-radius: 5vw;
+    border: solid white 0.1vw;
+    padding-bottom: 0.5vw;
+    background-color: #6b00a8;
+}
+
+.other-buttons-help{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.other-buttons{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 42vw;
+    text-align: center;
+    z-index: 2;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.other-buttons h2{
+    font-size: 1.75vw;;
+}
+
+.other-buttons li{
+    font-size: 3.5vw;
+    background-color: #2c0041;
+    font-family: 'Roboto', sans-serif;
+    width: 12vw;
+    border-radius: 5vw;
+    border: solid white 0.1vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.other-buttons li:hover{
+    font-size: 3.5vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: solid white 0.1vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #6b00a8;
 }
 
 .seller-two{
     position: absolute;
-    top: 118vw;
+    top: 66vw;
     /*
     top: 22.5rem;
     21.5%
@@ -68,18 +156,18 @@
     width: 100%;
     text-align: center;
     z-index: 2;
+    margin: 0;
+    padding: 0;
 }
 
 .sub-seller-two{
     width: 70%;
     margin-left: 15%;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
 }
 
 .seller-three{
     position: absolute;
-    top: 128vw;
+    top: 75vw;
     /*
     top: 22.5rem;
     21.5%
@@ -88,13 +176,17 @@
     width: 100%;
     text-align: center;
     z-index: 2;
-
+    /*
+    background-color: red;
+    */
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .seller-three h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-size: 2.5vw;
     /*
     2rem
@@ -114,89 +206,28 @@
     z-index: 2;
     border: solid white 0.1vw;
     width: 32.5vw;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+    margin: 0;
+    border-radius: 5vw;
+    background-color: #2c0041;
 }
 
 .sub-seller-three:hover{
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
     text-align: center;
     z-index: 2;
-    border: solid green 0.1vw;
     width: 32.5vw;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-}
-
-.seller-four{
-    position: absolute;
-    top: 65vw;
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-}
-
-.sub-seller-four{
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    border: solid white 0.1vw;
-    width: 18%;
-    margin-left: 41%;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    margin-top: 2vw;
-}
-
-.sub-seller-four:hover{
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    border: solid green 0.1vw;
-    width: 18%;
-    margin-left: 41%;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    margin-top: 2vw;
-}
-
-.sub-seller-four a{
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
     margin: 0;
-    padding: 0;
-}
-
-.imageTest{
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    z-index: 1;
+    border-radius: 5vw;
+    background-color: #6b00a8;
 }
 
 .spacer{
     position: relative;
-    height: 7vw;
+    height: 10vw;
     max-width: 100%;
-    z-index: 1;
 }
 
 .contentOne{
@@ -211,8 +242,6 @@
     padding-top: 1vw;
     color: black;
 }
-
-
 
 video{
     opacity: 0.5;
