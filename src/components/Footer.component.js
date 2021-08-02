@@ -14,10 +14,10 @@ function Footer() {
                                     <span>Contact Us</span>
                                 </li>
                                 <li className = "footer-subContent">
-                                <i class="fa fa-phone" aria-hidden="true"/> <span></span> <span>123-456-7890</span>
+                                <i className="fa fa-phone" aria-hidden="true"/> <span></span> <span>123-456-7890</span>
                                 </li>
                                 <li className = "footer-subContent">
-                                <i class="fa fa-envelope"/> <span>placeholder@email.com</span>
+                                <i className="fa fa-envelope"/> <span>placeholder@email.com</span>
                                 </li>
                             </ul>
                         </li>

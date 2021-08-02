@@ -1,0 +1,53 @@
+.contact-page{
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    overflow: visible;
+}
+
+.contact-spacer{
+    width: 100%;
+    height: 10vw;
+}
+
+.form{
+    position: relative;
+    background-color: blue;
+    height: 32.5vw;
+}
+
+.form textarea{
+    
+}
+
+.contact-text{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-text h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 4.4vw;
+
+    margin: 0;
+    padding: 0;
+}
+
+.contact-text h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 2vw;
+
+    margin: 0;
+    padding: 0;
+}
