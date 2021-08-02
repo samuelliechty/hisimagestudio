@@ -254,6 +254,9 @@
     margin-bottom: 2vw;
     border-radius: 3vw;
     border: solid #2c0041 0.5vw;
+
+    width: 21.7vw;
+    height: 1.5*21.7vw;
 }
 
 .about-container p{

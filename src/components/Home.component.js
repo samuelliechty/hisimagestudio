@@ -10,9 +10,9 @@ function HomePage() {
         <>
             <div className="home-page">
                 <div className = "spacer"/>
-                <video autoPlay loop muted>
+                <video playsInline autoPlay loop muted id="HIS-video-one">
                     <source src={SwansonVideo} type ="video/mp4"/>
-                    <source src={SwansonMiniClip} type ="video/mp4"/>
+                    
                 </video>
             
                 <div className="seller-one">
@@ -50,7 +50,7 @@ function HomePage() {
                     </ul>
                 </div>
 
-                <video autoPlay loop muted>
+                <video playsInline autoPlay loop muted id="HIS-video-two">
                     <source src={SwansonMiniThinClip} type ="video/mp4"/>
                 </video>
 
