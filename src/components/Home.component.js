@@ -17,7 +17,7 @@ function HomePage() {
             
                 <div className="seller-one">
                     <div className = "sub-seller-one">
-                        <h1>Professional Grade Videography</h1>
+                        <h1>Professional Videography</h1>
                         <h2>Presented In Beautiful 4K Resolution</h2>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function HomePage() {
                 <div className = "collection">
                 <div className="seller-two">
                     <div className = "sub-seller-two">
-                        <h1>His Image Studio</h1>
+                        <h1>Meet Todd and His Image Studio</h1>
                         <h2>Meets Your Video Needs</h2>
                     </div>
                 </div>
@@ -65,7 +65,9 @@ function HomePage() {
                 <div className="seller-three">
                     <a href="/contact">
                     <div className = "sub-seller-three">
-                        <h2>Contact for Commission</h2>
+
+                        <h2>Commissioning</h2>
+                        
                     </div>
                     </a>
                 </div>

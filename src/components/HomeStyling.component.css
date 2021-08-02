@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     background: black;
+    overflow: visible;
 }
 
 .home-page ul{
@@ -147,7 +148,7 @@
 
 .seller-two{
     position: absolute;
-    top: 101.5vw;
+    top: 67.5vw;
     /*
     top: 22.5rem;
     21.5%
@@ -158,6 +159,15 @@
     z-index: 2;
     margin: 0;
     padding: 0;
+}
+
+.seller-two h2{
+    color:indigo;
+    font-size: 0vw;
+}
+
+.seller-two h1{
+    font-size: 4vw;
 }
 
 .sub-seller-two{
@@ -173,7 +183,7 @@
     21.5%
     360px
     */
-    width: 100%;
+    width: auto;
     text-align: center;
     z-index: 2;
     /*
@@ -181,8 +191,7 @@
     */
     display: flex;
     justify-content: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-left: 3vw;
 }
 
 .seller-three h2{
@@ -205,28 +214,31 @@
     text-align: center;
     z-index: 2;
     border: solid white 0.1vw;
-    width: 32.5vw;
     padding-top: 0.5vw;
     padding-bottom: 1vw;
     margin: 0;
     border-radius: 5vw;
     background-color: #2c0041;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .sub-seller-three:hover{
     text-align: center;
     z-index: 2;
-    width: 32.5vw;
     padding-top: 0.5vw;
     padding-bottom: 1vw;
     margin: 0;
     border-radius: 5vw;
     background-color: #6b00a8;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .about-container{
     width: 100%;
-    top: 65.75vw;
+    top: 75vw;
     position: absolute;
     height: 37.5vw;
     z-index: 5;
