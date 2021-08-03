@@ -5,7 +5,6 @@
     overflow: auto;
     display: flex;
     flex-direction: column;
-    background: black;
     overflow: visible;
 }
 
@@ -18,14 +17,31 @@
     position: relative;
     background-color: blue;
     height: 32.5vw;
+    opacity: 0.5;
 }
 
 .form textarea{
-    
+    height: 15vw;
+    width: 40vw;
+}
+
+.form input{
+    height: 1.5vw;
+}
+
+.dark-arts{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.name-input{
+    width: 10vw;
 }
 
 .contact-text{
-    color: white;
+    color: black;
     align-items: center;
     justify-content: center;
 }
