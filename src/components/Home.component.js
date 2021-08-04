@@ -24,13 +24,20 @@ function HomePage() {
                 </div>
 
                 <div className = "ding-dong-help-div">
-                    <a href="/realty" className="realty-button">
-                        <h2>Real Estate</h2>
+                    <a href="https://www.youtube.com/watch_popup?v=OSdcyVfi2mM" className="realty-button">
+                        <h2>De Nobis</h2>
                     </a>
                 </div>
 
                 <div className = "other-buttons-help">
                     <ul className="other-buttons">
+
+                        <a href="/realty">
+                            <li>
+                                <h2>Real Estate</h2>
+                            </li>
+                        </a>
+                        
                         <a href ="/construction">
                             <li>
                                 <h2>Construction</h2>

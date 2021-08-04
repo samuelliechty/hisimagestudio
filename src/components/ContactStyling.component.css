@@ -36,8 +36,14 @@
     justify-content: center;
 }
 
+.dark-arts span{
+    margin-right: 5vw;
+    font-family: 'IBM Plex Serif', serif;
+}
+
 .name-input{
     width: 10vw;
+    margin-right: 5vw;
 }
 
 .contact-text{
