@@ -15,7 +15,7 @@ function Navbar() {
                 </Link>
 
                 <Link to="/construction">
-                    <span>Construction & Inspection</span>
+                    <span>Construction</span>
                 </Link>
 
                 <Link to="/specialevents">
@@ -23,11 +23,15 @@ function Navbar() {
                 </Link>
 
                 <Link to="/fun">
-                    <span>Just For Fun</span>
+                    <span>For Fun</span>
                 </Link>
 
                 <Link to="/contact">
                     <span>Contact Us</span>
+                </Link>
+
+                <Link to="/about">
+                    <span>About Us</span>
                 </Link>
             </div>
         </div>

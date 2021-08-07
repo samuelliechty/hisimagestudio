@@ -83,7 +83,7 @@ function HomePage() {
                 </div>
 
                 <div className="about-container">
-                    <img src = "./assets/ToddBioPhoto.jpeg"></img>
+                    <img src = "../assets/ToddBioPhoto.jpeg"></img>
 
                     <div className ="bio">
                     <p>
