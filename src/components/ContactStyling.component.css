@@ -196,11 +196,13 @@ input{
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
     -webkit-appearance: none;
+    border-radius: 0vw;
 }
 
 textarea{
     color: white;
     font-family: 'IBM Plex Serif', serif;
+    border-radius: 0vw;
 }
 
 input::-webkit-outer-spin-button,
