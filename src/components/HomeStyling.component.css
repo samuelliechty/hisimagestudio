@@ -298,7 +298,7 @@
 }
 
 video{
+    width: 100%;
     opacity: 0.5;
-    height: 50%;
     border-top: solid #2c0041 0.1vw;
 }
