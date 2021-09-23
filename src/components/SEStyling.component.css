@@ -1,0 +1,38 @@
+.special-events-page{
+    background-color: white;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.special-events-page h1{
+    color: black;
+    font-size: 3.3vw;
+    font-weight: 900;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.special-events-page h2{
+    padding-top: 2vw;
+    color: black;
+    font-size: 2.75vw;
+    font-weight: 900;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.special-events-page span{
+    width: 60vw;
+    color: black;
+    font-size: 1.25vw;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.special-events-spacer{
+    height: 10vw;
+}
+
+iframe{
+    width: 64vw;
+    height: 36vw;
+    box-shadow: 0 0 100px rgba(45, 0, 71, 0.64);
+}

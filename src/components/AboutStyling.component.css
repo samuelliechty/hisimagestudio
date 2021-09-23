@@ -7,6 +7,7 @@
     flex-direction: column;
     overflow: visible;
     background-color: black;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .about-about-page video{
@@ -52,6 +53,8 @@
 
 .about-seller-two h1{
     font-size: 4vw;
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
 }
 
 .about-sub-seller-two{
@@ -61,7 +64,7 @@
 
 .about-seller-three{
     position: absolute;
-    top: 110.9vw;
+    top: 56.5vw;
     /*
     top: 22.5rem;
     21.5%

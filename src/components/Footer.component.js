@@ -7,21 +7,9 @@ function Footer() {
         <>
             <div className="footer">
                 <div className="footer-again">
-                    <ul className="footer-contents">
-                        <li>
-                            <ul className="footer-column">
-                                <li className="footer-subHeader">
-                                    <span>Contact Us</span>
-                                </li>
-                                <li className = "footer-subContent">
-                                <i className="fa fa-phone" aria-hidden="true"/> <span></span> <span>123-456-7890</span>
-                                </li>
-                                <li className = "footer-subContent">
-                                <i className="fa fa-envelope"/> <span>placeholder@email.com</span>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <img src = "./assets/NEW-his-image-studio-logo.png" alt="Logo" className="footer-logo"/>
+                    <span>So God created mankind in <em><strong>His</strong></em> own image, in the <em><strong>image</strong></em> of God he created them; Genesis 1:27</span>
+                        
                 </div>
             </div>
         </>

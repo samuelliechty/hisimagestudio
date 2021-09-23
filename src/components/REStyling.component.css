@@ -1,11 +1,38 @@
 .realty-page{
-    background-color: black;
+    background-color: white;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.realty-page h1{
+    color: black;
+    font-size: 3.3vw;
+    font-weight: 900;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.realty-page h2{
+    padding-top: 2vw;
+    color: black;
+    font-size: 2.75vw;
+    font-weight: 900;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.realty-page span{
+    width: 60vw;
+    color: black;
+    font-size: 1.25vw;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .realty-spacer{
     height: 10vw;
 }
 
-.realty-page img{
-    width: 100%;
+iframe{
+    width: 64vw;
+    height: 36vw;
+    box-shadow: 0 0 100px rgba(45, 0, 71, 0.64);
 }

@@ -70,10 +70,10 @@
     display: flex;
     position: absolute;
     background-color: #2c0041;
-    top: 35vw;
+    top: 34vw;
     text-align: center;
     z-index: 2;
-    width: 20vw;
+    width: 22vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -87,10 +87,10 @@
 .realty-button:hover{
     display: flex;
     position: absolute;
-    top: 35vw;
+    top: 34vw;
     text-align: center;
     z-index: 2;
-    width: 20vw;
+    width: 22vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -130,8 +130,8 @@
     border: solid white 0.1vw;
     padding-top: 0.2vw;
     padding-bottom: 0.5vw;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 .other-buttons li:hover{
@@ -141,8 +141,8 @@
     border: solid white 0.1vw;
     padding-top: 0.2vw;
     padding-bottom: 0.5vw;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
     background-color: #6b00a8;
 }
 

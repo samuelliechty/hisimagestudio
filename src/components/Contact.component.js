@@ -1,11 +1,26 @@
-import React from 'react'
+import emailjs from 'emailjs-com';
+import React, { useRef } from 'react';
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
 import CSS from './ContactStyling.component.css'
 
 function ContactPage() {
+
+    const form = useRef();
+
+    function sendEmail(e){
+        e.preventDefault();
+
+    emailjs.sendForm('service_mj7bir5', 'template_0jw6pnk', e.target, 'user_hdraTPK4isY0TxmafGBA0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+    }
+
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => console.log(data);
     return (
         <>
             <div className="contact-page">
@@ -18,36 +33,41 @@ function ContactPage() {
                         For Questions or Commission
                     </h2>
                 </div>
-                <form id='contact-form' onSubmit={handleSubmit(onSubmit)} className="form">
-                    
-                    <div className="dark-arts">
-                        <span>Full Name</span>
-                    <input type='text' name='user_name_first' {...register("first-name", { required: true, maxLength: 16 })} placeholder='First' className ="name-input" required="true"/>
-                    <input type='text' name='user_name_last' {...register("last-name", { required: true, maxLength: 16 })} placeholder='Last' className ="name-input" required="true"/>
+
+
+                <form id='contact-form' onSubmit={sendEmail} className="form">
+                    <div className="almost-all">
+                        <div className="form-group-one">
+                            <div className="sub-one">
+                                <div className="dark-arts">
+                                    <span>Full Name</span>
+                                    <input type='text' name='from' {...register("from", { required: true, maxLength: 16 })} placeholder='Full Name' className="name-input" required="true" />
+                                </div>
+
+                                <div className="dark-arts">
+                                    <span>Email</span>
+                                    <input className='email-input' type='email' name='email' {...register("email", { required: true, maxLength: 256 })} placeholder='example@email.com' required="true" />
+                                </div>
+
+                                <div className="dark-arts">
+                                    <span>Phone #</span>
+                                    <input className='phone' type='tel' name='phonearea' required="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter in the format XXX-XXX-XXXX" {...register("phonearea", { required: true })} placeholder='123-456-7890' minLength="10" maxLength="12" required="true" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="form-group-two">
+                            <div className="sub-two">
+
+                                <textarea name='message' className="textarea-control" {...register("message", { required: true, maxLength: 1500 })} placeholder='Message' maxLength="1000" required="true" />
+
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="dark-arts">
-                        <span>Email</span>
-                    <input type='email' name='user_email' {...register("email", { required: true, maxLength: 256 })} placeholder='Email' required="true"/>
+                    <div className="submit-arts">
+                        <input type='submit' value='Submit' className="submit-button" />
                     </div>
-                    
-                    <div className="dark-arts">
-                        <span>Phone Number</span>
-                    <input type='tel' name='user_phone' {...register("phone-first-three", { required: true, maxLength: 256 })} placeholder='' maxLength="3" required="true"/>
-                    <input type='tel' name='user_phone' {...register("phone-second-three", { required: true, maxLength: 256 })} placeholder='' maxLength="3" required="true"/>
-                    <input type='tel' name='user_phone' {...register("phone-last-four", { required: true, maxLength: 256 })} placeholder='' maxLength="4" required="true"/>
-                    </div>
-
-                    <div className="dark-arts">
-                        
-                    <textarea name='message' {...register("message", { required: true, maxLength: 1000 })} placeholder='Message' maxLength="1000" required="true"/>
-                        
-                    </div>
-                    
-                    <div className="dark-arts">
-                    <input type='submit' value='Send' />
-                    </div>
-
                 </form>
             </div>
         </>
