@@ -9,7 +9,7 @@ function HomePage() {
             <div className="home-page">
 
                 <div className = "spacer"/>
-                <video playsInline autoPlay loop muted id="HIS-video-one">
+                <video playsInline playsinline webkit-playsinline autoPlay loop muted id="HIS-video-one">
                     <source src={SwansonVideo} type ="video/mp4"/>
                     
                 </video>
