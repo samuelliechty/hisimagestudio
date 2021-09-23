@@ -73,7 +73,7 @@
     top: 34vw;
     text-align: center;
     z-index: 2;
-    width: 22vw;
+    width: 25vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -90,7 +90,7 @@
     top: 34vw;
     text-align: center;
     z-index: 2;
-    width: 22vw;
+    width: 25vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -118,14 +118,14 @@
 }
 
 .other-buttons h2{
-    font-size: 1.75vw;;
+    font-size: 1.7vw;;
 }
 
 .other-buttons li{
     font-size: 3.5vw;
     background-color: #2c0041;
     font-family: 'Roboto', sans-serif;
-    width: 12vw;
+    width: 12.5vw;
     border-radius: 5vw;
     border: solid white 0.1vw;
     padding-top: 0.2vw;
