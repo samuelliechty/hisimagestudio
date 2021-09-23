@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CSS from './HomeStyling.component.css'
-import SwansonVideo from './video/newBackgroundEdit.mp4'
-import SwansonMiniClip from './video/swansonMiniClipWithFade.mp4'
-import SwansonMiniThinClip from './video/newBackgroundEdit.mp4'
+import SwansonVideo from './video/CompressedBackgroundEdit.mp4'
 
 function HomePage() {
     return (

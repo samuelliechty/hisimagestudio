@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
 import CSS from './AboutStyling.component.css'
-import SwansonMiniThinClip from './video/newBackgroundEdit.mp4'
+import SwansonMiniThinClip from './video/CompressedBackgroundEdit.mp4'
 
 
 function AboutPage() {
