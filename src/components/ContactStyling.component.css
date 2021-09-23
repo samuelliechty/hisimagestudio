@@ -195,6 +195,7 @@ input{
     color: white;
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
+    -webkit-appearance: none;
 }
 
 textarea{
