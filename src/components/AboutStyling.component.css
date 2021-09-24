@@ -135,6 +135,7 @@
 
 .about-about-page p a{
     text-decoration: none;
+    text-decoration: underline;
     font-family: 'IBM Plex Serif', serif;
     font-size: inherit;
     color: white;
