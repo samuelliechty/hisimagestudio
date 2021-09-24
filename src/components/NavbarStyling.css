@@ -6,7 +6,7 @@
     /*
     opacity: 0.75;
     */
-    height: 10vw;
+    height: 9vw;
     width: 100%;
     z-index: 9001;
     position: fixed;
@@ -36,6 +36,7 @@ span{
     display: inline-block;
     margin-right: 0px;
     font-family: 'Patua One', cursive;
+    text-align: center;
 }
 
 .not-logo-nav-items{

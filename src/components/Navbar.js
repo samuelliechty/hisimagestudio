@@ -11,11 +11,11 @@ function Navbar() {
             </Link>
             <div className = "not-logo-nav-items">
                 <Link to="/realty">
-                    <span>Real Estate</span>
+                    <span>Realty</span>
                 </Link>
 
                 <Link to="/construction">
-                    <span>Construction</span>
+                    <span>Construction and<br/>Inspection Services</span>
                 </Link>
 
                 <Link to="/specialevents">

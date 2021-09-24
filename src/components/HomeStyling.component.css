@@ -17,7 +17,7 @@
 
 .home-page h1{
     font-family: 'IBM Plex Serif', serif;
-    font-size: 4vw;
+    font-size: 3vw;
     /*
     4rem
     */
@@ -28,7 +28,7 @@
 
 .home-page h2{
     font-family: 'IBM Plex Serif', serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     /*
     2rem
     */
@@ -39,7 +39,7 @@
 
 .seller-one{
     position: absolute;
-    top: 12.5vw;
+    top: 10vw;
     /*
     top: 22.5rem;
     21.5%
@@ -70,10 +70,10 @@
     display: flex;
     position: absolute;
     background-color: #2c0041;
-    top: 34vw;
+    top: 47.5vw;
     text-align: center;
     z-index: 2;
-    width: 25vw;
+    width: 20vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -81,16 +81,16 @@
 }
 
 .realty-button h2{
-    font-size: 3vw;
+    font-size: 2.25vw;
 }
 
 .realty-button:hover{
     display: flex;
     position: absolute;
-    top: 34vw;
+    top: 47.5vw;
     text-align: center;
     z-index: 2;
-    width: 25vw;
+    width: 20vw;
     justify-content: center;
     border-radius: 5vw;
     border: solid white 0.1vw;
@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 42vw;
+    top: 55vw;
     text-align: center;
     z-index: 2;
     padding-top: 0.5vw;
@@ -118,14 +118,13 @@
 }
 
 .other-buttons h2{
-    font-size: 1.7vw;;
+    font-size: 1.275vw;;
 }
 
 .other-buttons li{
-    font-size: 3.5vw;
     background-color: #2c0041;
     font-family: 'Roboto', sans-serif;
-    width: 12.5vw;
+    width: 10vw;
     border-radius: 5vw;
     border: solid white 0.1vw;
     padding-top: 0.2vw;
@@ -280,8 +279,9 @@
 
 .spacer{
     position: relative;
-    height: 10vw;
+    height: 9vw;
     max-width: 100%;
+    background-color: white;
 }
 
 .contentOne{
