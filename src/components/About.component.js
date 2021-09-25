@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
 import CSS from './AboutStyling.component.css'
 import SwansonMiniThinClip from './video/CompressedBackgroundEdit.mp4'
+import bodieMoment from './video/BodieMoment.jpg'
 
 
 function AboutPage() {
@@ -12,15 +13,11 @@ function AboutPage() {
         <>
             <div className="about-about-page">
                 <div className="about-spacer" />
-                <video playsInline autoPlay loop muted id="HIS-video-two">
-                    <source src={SwansonMiniThinClip} type="video/mp4" />
-                </video>
-
+                <img id="his-about-background" className="oops" src={bodieMoment}></img>
                 <div className="about-collection">
                     <div className="about-seller-two">
                         <div className="about-sub-seller-two">
                             <h1>Meet Todd and His Image Studio</h1>
-                            <h2>Meets Your Video Needs</h2>
                         </div>
                     </div>
 

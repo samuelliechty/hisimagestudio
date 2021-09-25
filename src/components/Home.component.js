@@ -22,7 +22,7 @@ function HomePage() {
                 </div>
 
                 <div className = "ding-dong-help-div">
-                    <a href="https://www.youtube.com/embed/OSdcyVfi2mM?autoplay=1" className="realty-button" allow="autoplay">
+                    <a href="https://www.youtube.com/embed/OSdcyVfi2mM?rel=0" className="realty-button" allow="autoplay">
                         <h2>What We Do</h2>
                     </a>
                 </div>
