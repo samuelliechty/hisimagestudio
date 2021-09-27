@@ -20,9 +20,8 @@
 }
 
 .special-events-page span{
-    width: 60vw;
     color: black;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     font-weight: 700;
     font-family: 'IBM Plex Serif', serif;
 }
@@ -35,4 +34,17 @@ iframe{
     width: 64vw;
     height: 36vw;
     box-shadow: 0 0 100px rgba(45, 0, 71, 0.64);
+}
+
+.disclaimer{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.disclaimer-text{
+    font-family: 'IBM Plex Serif', serif !important;
+    font-size: 1.1vw !important;
+    width: 61vw;
+    font-weight: 200 !important;
+    border: 2px solid black;
 }

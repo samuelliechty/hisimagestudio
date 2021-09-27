@@ -14,15 +14,14 @@
 .realty-page h2{
     padding-top: 2vw;
     color: black;
-    font-size: 2.75vw;
+    font-size: 2.5vw;
     font-weight: 900;
     font-family: 'IBM Plex Serif', serif;
 }
 
 .realty-page span{
-    width: 60vw;
     color: black;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     font-weight: 700;
     font-family: 'IBM Plex Serif', serif;
 }

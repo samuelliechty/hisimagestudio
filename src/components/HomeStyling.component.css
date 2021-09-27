@@ -70,7 +70,7 @@
     display: flex;
     position: absolute;
     background-color: #2c0041;
-    top: 42.5vw;
+    top: 92.5vh;
     text-align: center;
     z-index: 2;
     width: 20vw;
@@ -87,7 +87,7 @@
 .realty-button:hover{
     display: flex;
     position: absolute;
-    top: 42.5vw;
+    top: 92.5vh;
     text-align: center;
     z-index: 2;
     width: 20vw;
@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    top: 47.5vw;
+    top: 103.5vh;
     text-align: center;
     z-index: 2;
     padding-top: 0.5vw;
@@ -301,6 +301,7 @@ video{
     object-fit: cover;
     width: 100%;
     height: 100vh;
-    opacity: 0.5;
+    opacity: 0.8;
+    filter: contrast(100%);
     border-top: solid #2c0041 0.1vw;
 }

@@ -11,7 +11,7 @@ function Navbar() {
             </Link>
             <div className = "not-logo-nav-items">
                 <Link to="/realty">
-                    <span>Realty</span>
+                    <span>Real Estate</span>
                 </Link>
 
                 <Link to="/construction">

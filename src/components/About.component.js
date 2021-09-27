@@ -21,16 +21,6 @@ function AboutPage() {
                         </div>
                     </div>
 
-                    <div className="about-seller-three">
-                        <a href="/contact">
-                            <div className="about-sub-seller-three">
-
-                                <h2>Commissioning</h2>
-
-                            </div>
-                        </a>
-                    </div>
-
                 </div>
 
                 <div className="about-about-container">

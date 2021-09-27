@@ -66,67 +66,6 @@
     margin-left: 15%;
 }
 
-.about-seller-three{
-    position: absolute;
-    top: 52.5vw;
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
-    width: auto;
-    text-align: center;
-    z-index: 2;
-    /*
-    background-color: red;
-    */
-    display: flex;
-    justify-content: center;
-    margin-left: 3vw;
-}
-
-.about-seller-three h2{
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 2.5vw;
-    /*
-    2rem
-    */
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.about-sub-seller-three{
-    /*
-    top: 22.5rem;
-    21.5%
-    360px
-    */
-    text-align: center;
-    z-index: 2;
-    border: solid white 0.1vw;
-    padding-top: 0.5vw;
-    padding-bottom: 1vw;
-    margin: 0;
-    border-radius: 5vw;
-    background-color: #2c0041;
-
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-
-.about-sub-seller-three:hover{
-    text-align: center;
-    z-index: 2;
-    padding-top: 0.5vw;
-    padding-bottom: 1vw;
-    margin: 0;
-    border-radius: 5vw;
-    background-color: #6b00a8;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-
 .about-about-page p{
     margin-left: 2vw;
     margin-right: 2vw;

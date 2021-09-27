@@ -14,7 +14,7 @@
 .fun-page h2{
     padding-top: 2vw;
     color: black;
-    font-size: 2.75vw;
+    font-size: 2.5vw;
     font-weight: 900;
     font-family: 'IBM Plex Serif', serif;
 }
@@ -22,7 +22,7 @@
 .fun-page span{
     width: 60vw;
     color: black;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     font-weight: 700;
     font-family: 'IBM Plex Serif', serif;
 }
@@ -35,4 +35,8 @@ iframe{
     width: 64vw;
     height: 36vw;
     box-shadow: 0 0 100px rgba(45, 0, 71, 0.64);
+}
+
+h3{
+    font-size: 2vw;
 }

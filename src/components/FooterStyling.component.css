@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 5vw;
+    height: 3vw;
     background-color: #110022;
     text-decoration: none;
     display: flex;
@@ -20,13 +20,16 @@
   }
 
   .footer-again span{
+      width: 100%;
+      position: absolute;
+      text-align: center;
       font-family: 'IBM Plex Serif', serif;
       font-size: 1vw;
       color: rgba(255, 255, 255, 0.75);
   }
 
   .footer-logo{
-      height: 3.5vw;
+      height: 2.75vw;
       padding-right: 20vw;
-      padding-left: 5vw;
+      padding-left: 2vw;
   }
