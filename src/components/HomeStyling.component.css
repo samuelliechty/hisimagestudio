@@ -70,7 +70,7 @@
     display: flex;
     position: absolute;
     background-color: #2c0041;
-    top: 88.5vh;
+    top: 87vh;
     text-align: center;
     z-index: 2;
     width: 20vw;
@@ -81,13 +81,13 @@
 }
 
 .realty-button h2{
-    font-size: 5vh;
+    font-size: 2.75vw;
 }
 
 .realty-button:hover{
     display: flex;
     position: absolute;
-    top: 88.5vh;
+    top: 87vh;
     text-align: center;
     z-index: 2;
     width: 20vw;
@@ -118,7 +118,7 @@
 }
 
 .other-buttons h2{
-    font-size: 3.75vh;
+    font-size: 1.5vw;;
 }
 
 .other-buttons li{
