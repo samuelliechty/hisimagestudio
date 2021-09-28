@@ -1,3 +1,9 @@
+#
+# Project Name: His Image Studio Website
+# Project Author: Samuel Liechty
+# Project Manager: Todd Swanson
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
